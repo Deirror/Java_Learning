@@ -8,6 +8,8 @@
 
 String Features
 -
-<img src="https://github.com/user-attachments/assets/0050a303-8938-4d02-b4ce-d07e45fb58bd" alt="Img1" width="700" height="300">
+<img src="https://github.com/user-attachments/assets/0050a303-8938-4d02-b4ce-d07e45fb58bd" alt="Img1" width="636" height="272">
 
-<img src="https://github.com/user-attachments/assets/8f3da08a-650e-4871-930e-cbd42555cfaf" alt="Img1" width="800" height="330">
+<img src="https://github.com/user-attachments/assets/8f3da08a-650e-4871-930e-cbd42555cfaf" alt="Img1" width="800" height="290">
+
+<img src="!https://github.com/user-attachments/assets/5219235f-3d0b-44e8-b292-c7fd21f9228a" alt="Img1" width="800" height="200">
