@@ -14,5 +14,5 @@ String Features
 
 <img src="https://github.com/user-attachments/assets/5b95f456-9f0e-4ae4-9664-990072072b41" alt="Img1" width="800" height="200">
 
-<img src="https://github.com/user-attachments/assets/927fe52b-b7f6-4242-bd8c-a1d334afd908" alt="Img1" width="450" height="250">
+<img src="https://github.com/user-attachments/assets/927fe52b-b7f6-4242-bd8c-a1d334afd908" alt="Img1" width="450" height="400">
 
