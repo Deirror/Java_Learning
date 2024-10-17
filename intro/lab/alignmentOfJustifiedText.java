@@ -13,6 +13,10 @@ public class TextJustifier {
         int currentWidth = words[0].length();
         int countCurrWords = 1;
 
+        if(currentWidth > maxWidth) {
+            return null;
+        }
+
         for(int i = 1; i < words.length; i++) {
             if(words[i].length() > maxWidth) {
                 return null;
@@ -23,8 +27,11 @@ public class TextJustifier {
                 countCurrWords++;
             } else {
                 int spacesToAdd = maxWidth - currentWidth;
+                int till =  countCurrWords - 1;
+                if(till == 0) till = 1;
+
                 for(int j = 0, t = startIndex; j < spacesToAdd;) {
-                    if(t - startIndex < countCurrWords - 1) {
+                    if(t - startIndex < till) {
                         modifiedWords[t].append(' ');
                         t++;
                         j++;
@@ -42,7 +49,7 @@ public class TextJustifier {
         for(int i = 0; i < startIndex; i++) {
             result.append(modifiedWords[i]);
 
-            if(!modifiedWords[i].toString().contains(" ")) {
+            if(!modifiedWords[i].toString().contains(" ") || modifiedWords[i].length() == maxWidth) {
                 result.append('#');
             }
         }
